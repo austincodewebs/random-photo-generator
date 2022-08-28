@@ -1,0 +1,57 @@
+
+
+      body{
+        background: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container{
+        width: 300px;
+        height: 500px;
+        border-radius: 15px;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 10px #9b9b9b,
+                    -5px -5px 10px #ffffff;
+        
+      }
+      .container h1{
+        text-align: center;
+        font-size: 2rem;
+        font-family: Helvetica;
+        background: -webkit-linear-gradient(#08C898, #105898);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+      }
+       .container .img-box{
+         width: 280px;
+         height: 200px;
+         box-shadow: inset 5px 5px 15px #9b9b9b,
+                                    inset 10px 8px 5px #fff;;
+         
+       } 
+       .container .img-box img{
+         width: 270px;
+         height: 100%;
+         object-fit: contain;
+       }
+      .container button{
+        background: transparent;
+        border: 0;
+        font-weight: 800;
+        text-transform: uppercase;
+        position: relative;
+        top: 50px;
+        left: 25%;
+        width: 150px;
+        height: 30px;
+        box-shadow: -6px -6px 10px rgba(255,255,255,0.8),
+                                    6px 6px 10px rgba(0,0,0,0.2) ;
+        
+      }
+      .container button:active{
+        box-shadow: inset 2px 2px 5px #cbced1,
+                                     inset -2px -2px 5px #fff;
+      }
