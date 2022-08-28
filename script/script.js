@@ -38,7 +38,7 @@ const imgArray = [
     window.onload = ()=> 
       generateRandom(imgArray);
     
-    btn.addEventListener("click", ()=>
+    btn.addEventListener("click", () =>
      generateRandom(imgArray));
     
     
